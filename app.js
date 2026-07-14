@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());        
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!');
+    res.send('jenkins poll scm test');
 });
 
 // Start the server
